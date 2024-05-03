@@ -1,0 +1,44 @@
+/* CSS rule to center align the container */
+.centered-container {
+  text-align: center; /* Center-align the content */
+}
+
+/* Optional: Adjust margin for better spacing */
+.centered-container img {
+  margin-right: 5px; /* Add spacing between the image and the text */ 
+  align-items: center="yurififf";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav-menu {
+  list-style-type: none;
+}
+
+.nav-menu li {
+  float: left;
+}
+
+.nav-menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.nav-menu li a:hover {
+  background-color: #555;
+}
